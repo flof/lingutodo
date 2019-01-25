@@ -1,1 +1,1 @@
-module github.com/flof/lingutodo
+module github.com/flof/lingutodo/v2

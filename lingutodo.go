@@ -1,9 +1,11 @@
 package lingutodo
 
+var list []string
+
 func List() []string {
-	return []string{
-		"Implement library",
-		"Setup server",
-		"Install material-ui",
-	}
+	return list
+}
+
+func Add(item string) {
+	list = append(list, item)
 }

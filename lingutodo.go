@@ -2,8 +2,8 @@ package lingutodo
 
 var list []string
 
-func List() []string {
-	return list
+func List() ([]string, error) {
+	return list, nil
 }
 
 func Add(item string) {

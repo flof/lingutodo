@@ -7,5 +7,5 @@ func List() ([]string, error) {
 }
 
 func Add(item string) {
-	list = append(list, item)
+	list = append(list, "Item: "+item)
 }
